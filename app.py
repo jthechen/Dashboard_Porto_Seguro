@@ -184,8 +184,8 @@ cfn = st.sidebar.number_input(
 umbral_actual = st.sidebar.slider(
     "Umbral de Decisión Manual",
     min_value=0.00,
-    max_value=0.30,
-    value=0.04,
+    max_value=1.00,
+    value=0.50,
     step=0.01,
     help=(
         "Probabilidad mínima para clasificar "
